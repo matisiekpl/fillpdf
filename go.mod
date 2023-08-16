@@ -1,4 +1,4 @@
-module github.com/matisiekpl/fillpdf
+module github.com/matisiekpl/fillpdftk
 
 go 1.16
 
