@@ -1,4 +1,4 @@
-module github.com/desertbit/fillpdf
+module github.com/matisiekpl/fillpdf
 
 go 1.16
 
