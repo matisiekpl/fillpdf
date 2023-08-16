@@ -126,7 +126,7 @@ func Fill(form Form, formPDFFile, destPDFFile string, options ...Options) (err e
 	}
 
 	// Run the pdftk utility.
-	err = runCommandInPath(tmpDir, "pdftk", args...)
+	err = runCommandInPath(tmpDir, "./pdftk", args...)
 	if err != nil {
 		return fmt.Errorf("pdftk error: %v", err)
 	}
